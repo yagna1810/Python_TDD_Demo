@@ -1,7 +1,7 @@
 
 import math
 import pytest
-from simple_math import add, safe_divide, sqrt_approx, average
+from simple_math import add, safe_divide, average
 from pytest import approx
 
 @pytest.mark.parametrize(
