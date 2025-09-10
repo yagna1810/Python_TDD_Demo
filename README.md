@@ -14,7 +14,6 @@ Open `src/simple_math/core.py` and complete these functions (they currently rais
 
 - `add(a: float, b: float) -> float`: Return `a + b`.
 - `safe_divide(a: float, b: float) -> float`: Return `a / b`; raise `ValueError` if `b == 0.0`.
-- `sqrt_approx(x: float, iterations: int = 12) -> float`: Approximate `sqrt(x)` using Newton's method; raise `ValueError` if `x < 0.0`.
 - `average(xs: list[float]) -> float`: Return the arithmetic mean; raise `ValueError` for an empty list.
 
 Each function includes a docstring with examples to guide you.
